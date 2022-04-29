@@ -215,3 +215,17 @@ td {
     width: 100%;
   }
 }
+
+.buttons {
+  display:grid; 
+  grid-gap: 32px; 
+  grid-auto-flow: column;
+}
+
+@media (max-width: 768px) {
+.buttons {
+  display:grid; 
+  grid-gap: 32px; 
+  grid-auto-flow: row;
+}
+}
